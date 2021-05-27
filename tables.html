@@ -1,0 +1,46 @@
+<!--
+    <table></table> tag, used to create the tables.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables</title>
+    </head>
+    <body>
+       <table border="2"
+              align="center"
+              cellspacing="10px"
+              cellpadding="10px">
+           <tr>
+               <th>E_ID</th>
+               <th>E_NAME</th>
+               <th>E_SAL</th>
+           </tr>
+
+           <tr>
+               <td rowspan="2">111 & 222</td>
+               <td colspan="2">E_ONE & 10000</td>
+           </tr>
+
+           <tr>
+                <td>E_TWO</td>
+                <td rowspan="3">20000 <br> 30000 <br> 40000</td>
+           </tr>
+
+           <tr>
+                <td colspan="2">333 & E_THREE</td>
+                
+           </tr>
+
+           <tr>
+                <td>444</td>
+                <td>E_FOUR</td>
+                
+           </tr>
+
+           <tr>
+                <td colspan="3">555 & E_FIVE & 50000</td>
+           </tr>
+       </table>
+    </body>
+</html>
