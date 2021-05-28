@@ -1,6 +1,6 @@
 <!--
     <table></table> tag, used to create the tables.
--->
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -44,3 +44,133 @@
        </table>
     </body>
 </html>
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Tables</title>
+        <style>
+            table,th,td{
+                border: 1px solid green;
+            }
+            table{
+                width: 100%;
+                text-align: center;
+                border-collapse: collapse;
+            }
+            th{
+                height: 50px;
+                vertical-align: bottom;
+            }
+            thead{
+                background: linear-gradient(90deg,black,red,black);
+                color: white;
+            }
+
+            tr:nth-child(even){
+                background-color: gray;
+                color: white;
+            }
+
+            tr:hover{
+                background-color: pink;
+            }
+
+
+        </style>
+    </head>
+    <body>
+       <table>
+           <thead>
+               <tr>
+                   <th>SNO</th>
+                   <th>NAME</th>
+                   <th>BRAND</th>
+                   <th>COST</th>
+                   <th>RATING</th>
+                   <th>IMAGE</th>
+               </tr>
+           </thead>
+
+           <tbody>
+               <tr>
+                   <td>1</td>
+                   <td>Niki Shirt</td>
+                   <td>Niki</td>
+                   <td>$100</td>
+                   <td>2.5</td>
+                   <td><img src="https://ashokitworkshop.s3.ap-south-1.amazonaws.com/p1.jpg" width="100px"></td>
+               </tr>
+
+               <tr>
+                    <td>2</td>
+                    <td>Polo Shirt</td>
+                    <td>Polo</td>
+                    <td>$200</td>
+                    <td>3.5</td>
+                    <td><img src="https://ashokitworkshop.s3.ap-south-1.amazonaws.com/p2.jpg" width="100px"></td>
+               </tr>
+
+               <tr>
+                    <td>3</td>
+                    <td>American Shirt</td>
+                    <td>American</td>
+                    <td>$300</td>
+                    <td>4.5</td>
+                    <td><img src="https://ashokitworkshop.s3.ap-south-1.amazonaws.com/p3.jpg" width="100px"></td>
+               </tr>
+
+               <tr>
+                    <td>4</td>
+                    <td>Niki Pant</td>
+                    <td>Niki</td>
+                    <td>$500</td>
+                    <td>5.0</td>
+                    <td><img src="https://ashokitworkshop.s3.ap-south-1.amazonaws.com/p4.jpg" width="100px"></td>
+               </tr>
+
+               <tr>
+                    <td>5</td>
+                    <td>Cotton Pant</td>
+                    <td>Sairam</td>
+                    <td>$1000</td>
+                    <td>5.0</td>
+                    <td><img src="https://ashokitworkshop.s3.ap-south-1.amazonaws.com/p5.jpg" width="100px"></td>
+               </tr>
+
+               <tr>
+                    <td>6</td>
+                    <td>Jeans Pant</td>
+                    <td>Jeans</td>
+                    <td>$600</td>
+                    <td>4.0</td>
+                    <td><img src="https://ashokitworkshop.s3.ap-south-1.amazonaws.com/p6.jpg" width="100px"></td>
+               </tr>
+           </tbody>
+       </table>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
