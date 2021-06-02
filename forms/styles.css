@@ -1,0 +1,53 @@
+.registration-div{
+    background: linear-gradient(45deg,red,black,red);
+    color: white;
+    width: 300px;
+    border-radius: 20px;
+    margin: 50px auto;
+    font-family:  Helvetica,Arial, sans-serif;
+    padding: 10px;
+}
+
+.registration-div h2{
+    text-align: center;
+}
+
+.form-group{
+    margin: 10px;
+}
+
+.form-group label{
+    display: block;
+    margin: 10px 0px;
+}
+
+.form-group input,select{
+    width: 280px;
+    height: 25px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.form-group select{
+    height: 30px;
+    width: 285px;
+}
+
+.form-group button{
+    width: 285px;
+    height: 30px;
+    background: linear-gradient(45deg,red,black,red);
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+
+.form-group button:hover{
+   
+    background: linear-gradient(45deg,white,black,white);
+   
+}
+
+
