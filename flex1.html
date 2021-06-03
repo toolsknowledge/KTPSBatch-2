@@ -1,0 +1,82 @@
+<!--
+    flex
+
+    box-modal
+
+    media queries
+
+    positions
+        relative
+        absolute
+        fixed
+        static
+        sticky
+
+    z-index
+
+    Grid layout 
+
+
+
+
+-->
+
+
+
+<!--
+   
+    1) flex
+
+    2) flex-direction
+
+    3) flex-wrpa
+
+    4) justify-content
+
+    5) align-items
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .main{
+                display: flex;
+                height: 300px;
+                border: 1px solid red;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .main div{
+                /* border: 1px solid black; */
+                margin: 10px;
+                padding: 10px;
+            }
+
+            .c1{
+                order: 1;
+                flex: 4 1 10em;
+                border: 3px solid red;
+            }
+            
+            .c2{
+                order: 2;
+                flex:2 2 5em;
+                background-color: saddlebrown;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="main">
+            <div class="c1">1</div>
+            <div class="c2">2</div>
+            <div class="c2">3</div>
+            <div class="c1">4</div>
+            <div class="c2">5</div>
+        </div>
+   
+    </body>
+</html>
